@@ -18,3 +18,22 @@ header {
     w-10 h-10 p-2 hover:fill-soft-magenta hover:border-soft-magenta transition-colors ease-in-out cursor-pointer bg-violet table:w-14 table:h-14 mobile:w-10 mobile:h-10;
   }
 }
+
+@for $i from 1 through 2 {
+  #main > div:nth-child(#{$i}) {
+    animation: left-anim 1s ease-in-out #{calc($i/2) + 0.5}s both;
+  }
+}
+
+@keyframes left-anim {
+  0% {
+    position: relative;
+    left: -40px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}

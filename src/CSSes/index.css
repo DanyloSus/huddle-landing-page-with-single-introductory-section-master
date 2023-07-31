@@ -15,4 +15,24 @@ header {
     @apply fill-white border border-white rounded-full 
     w-10 h-10 p-2 hover:fill-soft-magenta hover:border-soft-magenta transition-colors ease-in-out cursor-pointer bg-violet table:w-14 table:h-14 mobile:w-10 mobile:h-10;
   }
+}
+#main > div:nth-child(1) {
+  animation: left-anim 1s ease-in-out 1s both;
+}
+
+#main > div:nth-child(2) {
+  animation: left-anim 1s ease-in-out 1.5s both;
+}
+
+@keyframes left-anim {
+  0% {
+    position: relative;
+    left: -40px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
