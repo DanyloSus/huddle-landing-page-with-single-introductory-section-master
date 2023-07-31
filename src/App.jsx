@@ -1,3 +1,11 @@
+import BG from "./Element/BG";
+import Content from "./Element/Content";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main className="w-screen min-h-screen bg-violet relative">
+      <Content />
+      <BG />
+    </main>
+  );
 }
