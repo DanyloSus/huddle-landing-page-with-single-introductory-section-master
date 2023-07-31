@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex ml-auto gap-4">
+    <div className="flex ml-auto table:mx-auto gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"

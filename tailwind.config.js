@@ -7,6 +7,10 @@ export default {
         violet: "hsl(257, 40%, 49%)",
         "soft-magenta": "hsl(300, 69%, 71%)",
       },
+      screens: {
+        table: { max: "1024px" },
+        mobile: { max: "640px" },
+      },
     },
   },
   plugins: [],

@@ -15,6 +15,6 @@ header {
 @layer components {
   svg {
     @apply fill-white border border-white rounded-full 
-    w-10 h-10 p-2 hover:fill-soft-magenta hover:border-soft-magenta transition-colors ease-in-out cursor-pointer bg-violet;
+    w-10 h-10 p-2 hover:fill-soft-magenta hover:border-soft-magenta transition-colors ease-in-out cursor-pointer bg-violet table:w-14 table:h-14 mobile:w-10 mobile:h-10;
   }
 }
